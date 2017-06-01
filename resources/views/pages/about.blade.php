@@ -1,6 +1,8 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'about'])
 
 @section('content')
+
+
 
    <div class="container">
 
@@ -17,7 +19,7 @@
            </div>
        </div>
 
-       <p>voire le code source de mon projet <a href="#"><b>ici</b></a></p>
+       <p>voire le code source de mon projet <a href="https://github.com/lingotacro/laravel_learning"><b>ici</b></a></p>
        <hr>
        <h4> QU'ES CE QUE LARAVEL ? </h4>
 

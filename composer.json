@@ -18,6 +18,11 @@
         "classmap": [
             "database"
         ],
+
+            "files":[
+                "app/Hellper.php"
+            ],
+
         "psr-4": {
             "App\\": "app/"
         }
